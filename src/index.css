@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent scrolling when mobile menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Smooth transitions for mobile menu */
+.transform {
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Ensure images scale properly on mobile */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjust font sizes for mobile */
+@media (max-width: 640px) {
+  h2 {
+    font-size: 1.75rem; /* Smaller headings */
+  }
+  p, li {
+    font-size: 0.9rem; /* Smaller text */
+  }
+}
