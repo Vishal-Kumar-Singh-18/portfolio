@@ -14,8 +14,8 @@ function App() {
       <Header />
       <main>
         <Introduction />
-        <Education />
         <Experience />
+        <Education />
         <Projects />
         <Skills />
         <About />

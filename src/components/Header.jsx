@@ -19,7 +19,7 @@ function Header() {
   return (
     <nav className="bg-blue-600 text-white p-4 sticky top-0 z-20 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">Vishal</h1>
+        <h1 className="text-xl font-bold">Vishal Singh</h1>
         {/* Hamburger Button for Mobile */}
         <button
           className="md:hidden flex items-center p-2 rounded text-white hover:bg-blue-700 focus:outline-none"
@@ -45,9 +45,10 @@ function Header() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           <li><a href="#introduction" className="hover:underline">Home</a></li>
+          <li><a href="#experience" className="hover:underline">Experience</a></li>
+          <li><a href="#education" className="hover:underline">Education</a></li>
           <li><a href="#projects" className="hover:underline">Projects</a></li>
           <li><a href="#skills" className="hover:underline">Skills</a></li>
-          <li><a href="#education" className="hover:underline">Education</a></li>
           <li><a href="#about" className="hover:underline">About</a></li>
           <li><a href="#contact" className="hover:underline">Contact</a></li>
         </ul>
@@ -77,9 +78,10 @@ function Header() {
         </div>
         <ul className="flex flex-col items-center space-y-6 mt-10 text-lg">
           <li><a href="#introduction" className="hover:underline" onClick={toggleMenu}>Home</a></li>
+          <li><a href="#experience" className="hover:underline" onClick={toggleMenu}>Education</a></li>
+          <li><a href="#education" className="hover:underline" onClick={toggleMenu}>Education</a></li>
           <li><a href="#projects" className="hover:underline" onClick={toggleMenu}>Projects</a></li>
           <li><a href="#skills" className="hover:underline" onClick={toggleMenu}>Skills</a></li>
-          <li><a href="#education" className="hover:underline" onClick={toggleMenu}>Education</a></li>
           <li><a href="#about" className="hover:underline" onClick={toggleMenu}>About</a></li>
           <li><a href="#contact" className="hover:underline" onClick={toggleMenu}>Contact</a></li>
         </ul>
