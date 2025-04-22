@@ -1,7 +1,7 @@
 function Experience() {
   const experiences = [
     {
-      title: 'Software Developer',
+      title: 'Frontend Developer',
       company: 'Clinicea Healthcare India Private Limited',
       location: 'Remote',
       duration: 'Aug. 2024 – Present',
