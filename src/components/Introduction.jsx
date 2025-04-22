@@ -18,7 +18,7 @@ function Introduction() {
           <h2 className="text-2xl sm:text-4xl font-bold mb-4">
             Hi, I'm Vishal! 👋
           </h2>
-          <h2 className="text-2xl sm:text-4xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-2xl font-bold mb-4">
             Software Developer Crafting Engaging User Experiences 💻✨
           </h2>
           <p className="text-base sm:text-lg text-gray-700 mb-6">
