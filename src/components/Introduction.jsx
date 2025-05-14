@@ -22,9 +22,7 @@ function Introduction() {
             Software Developer Crafting Engaging User Experiences 💻✨
           </h2>
           <p className="text-base sm:text-lg text-gray-700 mb-6">
-            I'm an aspiring Full-Stack Developer with expertise in React, SQL,
-            Problem Solving, HTML, CSS, and JavaScript. I love building
-            intuitive and dynamic user interfaces that solve real-world
+            I love building intuitive and dynamic user interfaces that solve real-world
             problems. My goal is to create seamless digital experiences that
             delight users and drive impact. 🚀
           </p>
@@ -34,7 +32,7 @@ function Introduction() {
                 href="#contact"
                 className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
               >
-                Get in Touch 📬
+                Get in Touch
               </a>
               <a
                 href="https://drive.google.com/file/d/1pbKawz9lHwS547Vsxni5XN7hfQNk8kkS/view"
@@ -42,7 +40,7 @@ function Introduction() {
                 rel="noopener noreferrer"
                 className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
               >
-                Download Resume 📄
+                Download Resume
               </a>
             </div>
             <div className="flex space-x-4">

@@ -1,5 +1,7 @@
 import project1 from "../assets/project1.png"; // Blood Bank Management System screenshot in src/assets/
 import project2 from "../assets/project2.jpg"; // Todo List App screenshot in src/assets/
+import project3 from "../assets/project3.png"; // Pokedex App screenshot in src/assets/
+import project4 from "../assets/project4.png"; // Joke Saver App screenshot in src/assets/
 
 function Projects() {
   const projects = [
@@ -19,6 +21,42 @@ function Projects() {
       github:
         "https://github.com/Vishal-Kumar-Singh-18/Blood-bank-management-system",
       image: project1,
+    },
+    {
+      title: "Pokedex Web Application",
+      overview:
+        "An interactive web app for browsing, searching, and viewing Pokémon details using real-time data from PokeAPI.",
+      role: "Frontend Developer",
+      technologies: ["React.js", "CSS", "Axios", "PokeAPI"],
+      features: [
+        "Search Pokémon by name",
+        "Paginated list for browsing",
+        "Detailed profiles with stats and types",
+        "Responsive UI for all devices",
+        "Seamless API data retrieval",
+        "Modular React components"
+      ],
+      demo: "https://pokedex-react-u6i2.onrender.com/",
+      github: "https://github.com/Vishal-Kumar-Singh-18/Pokedex-React",
+      image: project3,
+    },
+    {
+      title: "Joke Saver Web Application",
+      overview:
+        "A web app for generating, saving, and managing random jokes with MongoDB persistence and real-time API integration.",
+      role: "Full-Stack Developer",
+      technologies: ["Next.js", "MongoDB", "Axios", "CSS", "Official Joke API"],
+      features: [
+       "Fetch random jokes via Official Joke API",
+    "Save jokes to MongoDB for persistence",
+    "Delete individual or all saved jokes",
+    "Responsive UI for desktop and mobile",
+    "Dynamic rendering with Next.js",
+    "Secure MongoDB data management"
+      ],
+      demo: "https://joke-saver.onrender.com/",
+      github: "https://github.com/Vishal-Kumar-Singh-18/joke-saver",
+      image: project4,
     },
     {
       title: "Todo List App",
