@@ -35,7 +35,7 @@ function Introduction() {
                 Get in Touch
               </a>
               <a
-                href="https://drive.google.com/file/d/1TjkwI31GGATILdIrM1ejWNFb263k3ZPd/view?usp=sharing"
+                href="https://drive.google.com/file/d/1skLQ0F5lYK9af27yoPaJjbbqL6eSYnIR/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
